@@ -46,6 +46,6 @@ As setting up Node.js and Cypress took up the longest (issues with sudo and fold
 
 A bug that was encountered relatively late deals with Javascript's new Date() method. It returns the wrong date which can cause some intermittent failures. I tried to use 'Date.now()' as an argument but it returned the same result. Again, more time and familiarity with Javascript would be required to investigate this further.
 
-##  Issues and Bugs ## 
+##  Part 2: Questions ## 
 
 Please open 'Assessment.docx' for the 2nd part of the Assessment. 
