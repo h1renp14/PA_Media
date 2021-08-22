@@ -15,9 +15,7 @@ Afterwards, depending on where the directory with the tests is located, run the 
 cd xxx/meta_weather_api/ node_modules/.bin/cypress open
 
 This should open Cypress for you with the following screen:
-
-<img width="1680" alt="Cypress" src="https://user-images.githubusercontent.com/89274203/130360083-2d1b4dec-59bf-4499-be08-183b5d9846c7.png">
-
+![Cypress_](https://user-images.githubusercontent.com/89274203/130360180-d1c1e03b-2411-4e19-81ad-c0a73a3ce0af.png)
 
 
 **Tests in Cypress:**
