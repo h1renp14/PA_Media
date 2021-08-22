@@ -1,6 +1,6 @@
-**metaweather_api_test_suite**
+# metaweather_api_test_suite #
 
-**Background**
+**Background:**
 
 This test suite tests the MetaWeather API (https://www.metaweather.com/api/). The focus of the suite is testing specific dates with a specific location (using Yahoo's woeid API). Invalid locations and dates have also been added.
 
@@ -23,7 +23,7 @@ This should open Cypress for you with the following screen:
 
 In order to the tests, you either select 'Run all specs' or click on the specific test you wish to run.
 
-Issues and Bugs
+**Issues and Bugs**
 
 As setting up Node.js and Cypress took up the longest (issues with sudo and folder permissions), I was not able to find a reliable way on how to test the data returned from the response. Several attempts were made, but more investigation / time would be required 
 
