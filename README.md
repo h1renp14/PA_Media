@@ -23,6 +23,24 @@ This should open Cypress for you with the following screen:
 
 In order to the tests, you either select 'Run all specs' or click on the specific test you wish to run.
 
+Here's the follinbg tests:
+
+1. bristol_date_test.spec.js
+
+2. invalid_date_test.spec.js
+
+3. invalid_location_date_test.spec.js
+
+4. london_date_test.spec.js
+
+5. no_location_test.spec.js
+
+6. nottingham_date_test.spec.js
+
+The test related to the requirements is:
+
+**6. nottingham_date_test.spec.js**
+
 **Issues and Bugs**
 
 As setting up Node.js and Cypress took up the longest (issues with sudo and folder permissions), I was not able to find a reliable way on how to test the data returned from the response. Several attempts were made, but more investigation / time would be required 
