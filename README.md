@@ -16,7 +16,8 @@ cd xxx/meta_weather_api/ node_modules/.bin/cypress open
 
 This should open Cypress for you with the following screen:
 
-[Uploading image.png…]()
+<img width="1680" alt="Cypress" src="https://user-images.githubusercontent.com/89274203/130360083-2d1b4dec-59bf-4499-be08-183b5d9846c7.png">
+
 
 
 **Tests in Cypress:**
