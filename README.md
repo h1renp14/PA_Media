@@ -16,6 +16,9 @@ cd xxx/meta_weather_api/ node_modules/.bin/cypress open
 
 This should open Cypress for you with the following screen:
 
+[Uploading image.png…]()
+
+
 **Tests in Cypress:**
 
 In order to the tests, you either select 'Run all specs' or click on the specific test you wish to run.
