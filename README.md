@@ -1,34 +1,23 @@
-# PA_Media
+metaweather_api_test_suite
+Background
+This test suite tests the MetaWeather API (https://www.metaweather.com/api/). The focus of the suite is testing specific dates with a specific location (using Yahoo's woeid API). Invalid locations and dates have also been added.
 
-What are we looking for?
+Instructions
+Before running the test suite, please ensure that you have Node.js and Cypress installed. Instructions on how this is to be done can be found here:
 
-A programmatical test suite utilising a language and framework of your choice.
-A test suite published into a publicly accessible Git-based repository (e.g. GitHub) with a README containing an overview of your test suite, and clear "execution instructions".
+https://docs.cypress.io/guides/getting-started/installing-cypress.html#System-requirements
 
-Feature to test:
+Afterwards, depending on where the directory with the tests is located, run the following command(s):
 
-As a MetaWeather API client, I want to retrieve “tomorrows” weather for “Nottingham” Acceptance:
-Ensure you consider the full anatomy of a RESTful API’s endpoint. See this article at smashingmagazine.com for tips.
+cd xxx/meta_weather_api/ node_modules/.bin/cypress open
 
-Things to think about:
+This should open Cypress for you with the following screen:
 
-How can I expand the test to include different locations?
-How can I expand the test to include other dates?
+Tests in Cypress:
 
-Stretch Feature:
+In order to the tests, you either select 'Run all specs' or click on the specific test you wish to run.
 
-A Customer has reported that they have already found a bug within the API but are unwilling to share the details. Build a feature test to expose the issue.
+Issues and Bugs
+As setting up Node.js and Cypress took up the longest (issues with sudo and folder permissions), I was not able to find a reliable way on how to test the data returned from the response. Several attempts were made, but more investigation / time would be required which the week during this was implemented did not allow for (vet visits and subsequent kitty babysitting).
 
-API details:
-Documentation and API url are available here: https://www.metaweather.com/api
-
-Assessment:
-
-We will be assessing how you approach this challenge. We will be look at the how, why & what you have thought about testing as well as the technical implementation.
-
-Part 2: Questions
-
-Explain why you chose to use those particular tools/frameworks in the technical
-Describe the reason for the scope of your solution. Why did you test what you did, and why didn’t you test other
-What questions would you ask your Product Owner / what information would you need to know, to be able to test the whole MetaWeather API service
-After completing the technical challenge, what would you do differently if you were asked to do the same challenge again?
+A bug that was encountered relatively late deals with Javascript's new Date() method. It returns the wrong date which can cause some intermittent failures. I tried to use 'Date.now()' as an argument but it returned the same result. Again, more time and familiarity with Javascript would be required to investigate this further.
