@@ -1,3 +1,5 @@
+//retrieve “tomorrows” weather for “Nottingham”, validate header, validate status, Validate body (body legnt greater than 2
+
 describe('Testing of the Meta Weather API (Nottingham):', () => {
 
  var response;
