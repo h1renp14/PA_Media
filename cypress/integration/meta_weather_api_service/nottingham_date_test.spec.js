@@ -12,7 +12,7 @@ describe('Testing of the Meta Weather API (Nottingham):', () => {
  var nottingham = '30720';
  var nottingham_url = base_url + nottingham + '/' + year.toString() + '/' + month.toString() + '/' + tomorrow + '/';
 
- it('Nottingham + Tomorow => Validate the header:', () => {
+ it('Nottingham + Tomorrow => Validate the header:', () => {
   response = cy.request(nottingham_url)
   response.its('headers')
    .its('content-type')
@@ -20,19 +20,19 @@ describe('Testing of the Meta Weather API (Nottingham):', () => {
 
  })
 
- it('Nottingham + Tomorow => Validate the status:', () => {
+ it('Nottingham + Tomorrow => Validate the status:', () => {
   response = cy.request(nottingham_url)
   response.its('status')
    .should('equal', 200);
  })
 
- it('Nottingham + Tomorow => Validate that the body is not empty:', () => {
+ it('Nottingham + Tomorrow => Validate that the body is not empty:', () => {
   response = cy.request(nottingham_url)
   response.its('body')
    .should('not.be.empty');
  })
 
- it('Nottingham + Tomorow => Validate that the body length is greater than 2:', () => {
+ it('Nottingham + Tomorrow => Validate that the body length is greater than 2:', () => {
   response = cy.request(nottingham_url)
   response.its('body.length')
    .should('be.gt', 2)
