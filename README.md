@@ -15,7 +15,7 @@ cd xxx/meta_weather_api/ node_modules/.bin/cypress open
 
 This should open Cypress for you with the following screen:
 
-![Cypress_](https://user-images.githubusercontent.com/89274203/130360180-d1c1e03b-2411-4e19-81ad-c0a73a3ce0af.png)
+![Screenshot 2021-08-23 at 15 20 24](https://user-images.githubusercontent.com/89274203/130463905-dfe4f845-1ae8-4e76-aafd-f0831f7eef9a.png)
 
 
 ##  Tests in Cypress: ## 
