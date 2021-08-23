@@ -38,3 +38,6 @@ describe('Testing of the Meta Weather API (Bristol):', () => {
  })
 
 })
+
+
+//Hiren Patel - 23/09/21
