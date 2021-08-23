@@ -9,6 +9,10 @@ Before running the test suite, please ensure that you have Node.js and Cypress i
 
 https://docs.cypress.io/guides/getting-started/installing-cypress.html#System-requirements
 
+You can also download directly from:
+
+https://download.cypress.io/desktop
+
 Afterwards, depending on where the directory with the tests is located, run the following command(s):
 
 cd xxx/meta_weather_api/ node_modules/.bin/cypress open
